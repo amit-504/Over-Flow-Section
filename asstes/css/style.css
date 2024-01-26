@@ -1,0 +1,139 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+  * {
+      padding: 0%;
+      margin: 0%;
+      box-sizing: border-box;
+  }
+
+  section {
+      height: 100vh;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+      overflow: hidden;
+  }
+
+  .container {
+      max-width: 1140px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 12px;
+      padding-right: 12px;
+  }
+
+  .d-flex {
+      display: flex;
+  }
+
+  .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-left: -12px;
+      margin-right: -12px;
+  }
+
+  .col-6 {
+      width: 50%;
+      padding-left: 12px;
+      padding-right: 12px;
+  }
+
+  .allside {
+      background-color: #1D1A1A;
+  }
+
+  .first-h1 {
+      color: white;
+      font-family: Poppins;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 128%;
+
+  }
+
+  .first-p1 {
+      color: white;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 180%;
+      opacity: 0.7; 
+  }
+
+  .box:hover .one-1 {
+
+      background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+      color: #FFF;
+      transition: all 1s linear;
+  }
+
+  .box:hover {
+      background-color: #0C0B0B;
+  }
+
+  .box {
+      width: 100%;
+      align-items: center;
+      padding: 13px;
+      border-radius: 60px;
+      margin-top: 12px;
+      background: #151313
+  }
+
+  .h-p {
+      padding-left: 20px;
+  }
+
+  .one-1 {
+      height: 71px;
+      width: 71px;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      /* color: #FFF; */
+      color: black;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 150%;
+      background-color: #FFF;
+      /* background: linear-gradient(90deg, #FFA800 0%, #F06500 100%); */
+  }
+
+  .sec-h2 {
+      color: #FFF;
+      font-family: Poppins;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 150%;
+  }
+
+  .sec-p2 {
+      color: #FFF;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 180%;
+      opacity: 0.7;
+  }
+
+  .h-p1 {
+
+      padding-left: 20px;
+
+  }
+
+  .image {
+      width: 50%;
+      position: absolute;
+  }
